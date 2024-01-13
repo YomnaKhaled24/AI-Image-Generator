@@ -1,7 +1,7 @@
 const generateForm = document.querySelector(".generate-form");
 
 const images = document.querySelector(".images");
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 function downloadImage(imageUrl) {
     const a = document.createElement("a");
