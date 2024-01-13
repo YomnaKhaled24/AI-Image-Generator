@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Section 1 Start */
+.sec1 {
+    background-image: url("img/Pngtree—blue\ artificial\ intelligence\ technology\ ai_1005731.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height:30vh; */
+}
+
+.content h1{
+    max-width: 50rem;
+    text-align: center;
+    
+}
+.content p{
+    max-width: 40rem;
+    text-align: center;
+}
+
+.generate-form input[type="text"]{
+    width: 40rem;
+    height: 3rem;
+}
+
+.generate-form .controls{
+    top: .3rem;
+    right: .5rem;
+
+}
+
+.generate-form .controls .imgquantity{
+    border: none;
+    outline: none;
+    
+
+}
+
+.generate-form .controls .button1{
+    width: 8rem;
+    font-weight: 500;
+    box-shadow: none;
+    /* font-size: 1.2rem; */
+
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+    .generate-form input[type="text"] {
+        width: 30rem; 
+    }
+}
+
+@media (max-width: 499px) {
+    .generate-form input[type="text"] {
+        width: 20rem; 
+        font-size: smaller;
+        
+    }
+
+    /* .generate-form input[type="text"]::placeholder {
+        place-content: "write";
+        
+    } */
+
+    .generate-form .controls .imgquantity{
+        
+        width: 4rem;
+        
+    
+    }
+    .generate-form .controls .button1{
+        width: 5rem;
+    
+    }
+}
+/* Section 1 End */
+
+/* Section 2 Start */
+
+.images .image {
+    
+    overflow: hidden;
+    
+}
+.images .image img{
+    height: 100%;
+    width: 100%;
+}
+
+.images .loading img{
+    
+    height: 100%;
+    width: 100%;
+    padding: 6rem;
+    
+    
+}
+.images .image .downloadButton{
+    
+    width: 8.5rem;
+    height: 3.5rem;
+    font-size: larger;
+    font-weight: 600;
+    display: none;
+    transition: 3s all;
+    box-shadow: none;
+    
+}
+
+
+
+.images .loading:hover .downloadButton {
+    display: none;
+}
+
+/* .images .image:hover .downloadButton {
+    display: block;
+} */
+/* Section 2 End */

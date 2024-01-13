@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <section class="sec1 mb-3 position-relative text-centre text-white pt-1 pb-1 ">
+        <div class="content container d-flex flex-column justify-content-center  align-items-center mt-5 mb-5">
+            <h1 class="fw-bold">AI Image Generator Tool JavaScript</h1>
+            <p class="fs-4 mt-3">Convert your text into an image within a second using this 
+                JavaScript-powered AI Image Generator tool.</p>
+                
+                <form action="#" class="generate-form mt-5 position-relative ">
+                    <input class="form-control rounded-pill " type="text" placeholder="Describe what you want to see" required>
+                    <div class="controls position-absolute ">
+                        <select class="imgquantity ">
+                            <option value="1">1 Image</option>
+                            <option value="2">2 Images</option>
+                            <option value="3">3 Images</option>
+                            <option value="4" selected>4 Images</option>
+                            <option value="5">5 Images</option>
+                        </select>
+                        
+                        <input type="submit" class=" button1 btn rounded-pill btn-primary " value="Generate">
+                    </div>
+                </form>
+        </div>
+    </section>
+
+    <section class="sec2 container-fluid p-5 ">
+        <div class="images d-flex justify-content-center align-items-center  flex-wrap ">
+
+            <div class="image col-lg-3 col-md-6 pe-3 mb-5 d-flex justify-content-center align-items-center">
+                <img src="img/img-1.jpg" alt="#">
+            </div>
+
+            <div class="image  col-lg-3 col-md-6 pe-3 mb-5 d-flex justify-content-center align-items-center">
+                <img src="img/img-2.jpg" alt="#">
+            </div>
+
+            <div class="image col-lg-3 col-md-6 pe-3 mb-5 d-flex justify-content-center align-items-center">
+                <img src="img/img-3.jpg" alt="#">
+            </div>
+
+            <div class="image col-lg-3 col-md-6 pe-3 mb-5 d-flex justify-content-center align-items-center">
+                <img src="img/img-4.jpg" alt="#">
+            </div>
+
+            <!-- <div class="image col-lg-3 col-md-6 pe-3 mb-5">
+                <img src="img/img-1.jpg" alt="#">
+            </div>
+
+            <div class="image  col-lg-3 col-md-6 pe-3 mb-5">
+                <img src="img/img-2.jpg" alt="#">
+            </div>
+
+            <div class="image  col-lg-3 col-md-6 pe-3 mb-5">
+                <img src="img/img-3.jpg" alt="#">
+            </div>
+
+            <div class="image  col-lg-3 col-md-6 pe-3 mb-5">
+                <img src="img/img-4.jpg" alt="#">
+            </div> -->
+        </div>
+    </section>
+
+    <script src="js.js"></script>
+</body>
+</html>
